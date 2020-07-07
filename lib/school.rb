@@ -1,13 +1,11 @@
 class School
+
+attr_accessor :name, :roster
+
   def initialize(name)
     @name = name
-  end
-  def name=(name)
-    @name=name
-  end
-  def name
-    @name
-  end
+    @roster = {}
+  
 end
 
 school = School.new("Bayside High School")
