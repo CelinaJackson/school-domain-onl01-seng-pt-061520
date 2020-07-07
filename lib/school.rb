@@ -20,11 +20,11 @@ def grade(level)
   end
 end
 
-def sort 
+def sort
   nu_hash = {}
   roster.each do |x, y|
     nu_has[x] = y.sort
-  end 
+  end
   nu_hash
 end
 
