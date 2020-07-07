@@ -26,6 +26,7 @@ def sort
     nu_has[x] = y.sort
   end
   nu_hash
+end 
 end
 
 school = School.new("Bayside High School")
