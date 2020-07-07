@@ -13,7 +13,7 @@ def add_student(student, level)
 end
 
 def grade(level)
-  roster.detact do |x, y|
+  roster.detect do |x, y|
     if x == level
       return y
     end
