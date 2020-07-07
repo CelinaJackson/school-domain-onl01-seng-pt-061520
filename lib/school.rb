@@ -13,7 +13,7 @@ def add_student(student, level)
 end
 
 def grade(level)
-
+end
 end
 
 school = School.new("Bayside High School")
